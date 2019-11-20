@@ -2,7 +2,7 @@
 ```
 git clone https://github.com/Kit4y/xianzhiSpider
 cd xianzhiSpider
-requirements.txt
+pip install -r requirements.txt
 python xianzhiSpider.py -s CTF -c 10 -p 1
 ```
 生成的内容放于同目录output文件夹下
