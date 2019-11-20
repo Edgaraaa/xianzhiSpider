@@ -18,7 +18,7 @@ print("------------------\n标准姿势python xianzhiSpider.py -s CTF -c 2 -p 1 
 
 ap = argparse.ArgumentParser()
 #自定义参数（简写，全写，是否必需，说明）
-ap.add_argument("-s","--search",required = True, help = "你要搜索的关键字",default='CTF')
+ap.add_argument("-s","--search",required = True, help = "你要搜索的关键字",default='')
 ap.add_argument("-c","--count",required = False, help = "你要搜索的文章数目。默认30",default='30')
 ap.add_argument("-p","--is_need_pic",required = False, help = "是否需要图床",default=0)
 #python demo.py -s CTF -c 2 -p 1
