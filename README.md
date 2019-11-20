@@ -1,4 +1,4 @@
-### 基于python3 将先知的文章通过关键字爬取到本地，并建立本地图床
+### 基于python3 将先知的文章通过关键字爬取到本地转为markdown格式，并建立本地图床
 ```
 git clone https://github.com/Kit4y/xianzhiSpider
 cd xianzhiSpider
@@ -13,3 +13,5 @@ python xianzhiSpider.py -s CTF -c 10 -p 1
 - -p 是否需要建立本地图床，默认0 0代表不需要 1代表需要
 
 ![](1.png)
+
+仅供学习，禁止商用行为
